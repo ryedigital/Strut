@@ -13,16 +13,18 @@ function() {
 			return new PlatonicShape(name, src, markup, aspect);
 
 		this.name = name;
-		var loc = window.location.href;
-		var hashIdx = loc.indexOf('#');
-		var finalIdx;
-		if (hashIdx != -1) {
-			loc = loc.substring(0, hashIdx);
-		}
-		finalIdx = loc.lastIndexOf('/');
+		//var loc = window.location.href;
+		//var hashIdx = loc.indexOf('#');
+		//var finalIdx;
+		//if (hashIdx != -1) {
+		//	loc = loc.substring(0, hashIdx);
+		//}
+		//finalIdx = loc.lastIndexOf('/');
 
-		if (finalIdx != -1)
-			loc = loc.substring(0, finalIdx);
+		//if (finalIdx != -1)
+		//	loc = loc.substring(0, finalIdx);
+
+    var loc = '/strut';
 
 		this.src = loc
 			+ '/preview_export/shapes/' + src;

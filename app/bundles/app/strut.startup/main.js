@@ -7,7 +7,7 @@ function(EditorView, EditorModel) {
 			var model = new EditorModel(registry);
     		var editor = new EditorView({model: model, registry: registry});
     		editor.render();
-    		$('body').append(editor.$el);
+    		$('.editor').append(editor.$el);
 
     		if (sessionMeta.lastPresentation != null) {
     			// Load it up.

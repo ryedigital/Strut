@@ -1,11 +1,11 @@
 <div class="navbar navbar-inverse span12">
 	<div class="navbar-inner">
-		<ul class="nav">
+		<!--<ul class="nav">
 			<li class="logo-holder">
 			</li>
 			<li class="divider-vertical">
 			</li>
-		</ul>
+		</ul>-->
 		<ul class="nav">
 			<li class="create-comp-buttons">
 				<div class="btn-group iconBtns">
@@ -14,11 +14,11 @@
 		</ul>
 		<ul class="nav theme-buttons">
 		</ul>
-		<ul class="nav pull-right">
+		<!--<ul class="nav pull-right">
 			<li class="divider-vertical">
 			</li>
 			<li class="mode-buttons">
 			</li>
-		</ul>
+		</ul>-->
 	</div>
 </div>

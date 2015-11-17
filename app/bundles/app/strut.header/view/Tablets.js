@@ -7,6 +7,7 @@ function(Tablets, ThemeProviderCollection) {
 
 		this._tablets = new Tablets({template: JST['strut.slide_editor/Tablets']});
 		this.$el = this._tablets.$el;
+    this.$el.hide();
 
 		this._providersChanged();
 	}

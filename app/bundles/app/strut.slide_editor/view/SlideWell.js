@@ -252,6 +252,7 @@ define(['libs/backbone',
 			 * @returns {*}
 			 */
 			render: function() {
+        this.$el.hide();
 				this.$slides.html('');
 				this.$el.html(this.$slides);
 				this._deck.get('slides').forEach(function(slide) {
