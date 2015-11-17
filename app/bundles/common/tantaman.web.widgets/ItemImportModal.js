@@ -17,7 +17,7 @@ function(Backbone, Imgup) {
 	};
 
 	var Modal = Backbone.View.extend({
-		className: "itemGrabber modal hide",
+		className: "itemGrabber modal",
 		events: {
 			"click .ok": "okClicked",
 			"click div[data-option='browse']": "browseClicked",
