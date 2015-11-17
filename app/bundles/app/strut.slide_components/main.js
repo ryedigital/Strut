@@ -52,7 +52,7 @@ define(['./view/ComponentButton',
 					browsable: true
 				}));
 
-				buttons.push(new ImportingComponentButton({
+				/*buttons.push(new ImportingComponentButton({
 					componentType: 'Video',
 					icon: 'icon-film',
 					name: lang.video,
@@ -76,7 +76,7 @@ define(['./view/ComponentButton',
 					JST['strut.slide_components/ShapesDropdown'],
 					{class: 'group-dropdown',
 						editorModel: editorModel}
-				));
+				));*/
 
 				return buttons;
 			}

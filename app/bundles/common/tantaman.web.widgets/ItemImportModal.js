@@ -60,7 +60,7 @@ function(Backbone, Imgup) {
 			}, function() {
 				_this._updateProgress(0);
 				_this._switchToThumbnail();
-				_this.$input.val('Failed to upload image to imgur');
+				_this.$input.val('Failed to upload image');
 			});
 
 			
